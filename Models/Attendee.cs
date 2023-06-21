@@ -9,5 +9,10 @@ namespace PlanAhead.Models
         public int EventId { get; set; }
         [ForeignKey("ApplicationUser")]
         public int UserId { get; set; }
+
+        public Attendee()
+        {
+
+        }
     }
 }
